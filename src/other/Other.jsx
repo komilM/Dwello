@@ -1,7 +1,7 @@
 import React from 'react'
-import "./Notfound.css"
+import "./other.css"
 
-const Notfoun = () => {
+const Other = () => {
     return (
         <div className='notfound'>
             <h1>404</h1>
@@ -10,4 +10,4 @@ const Notfoun = () => {
     )
 }
 
-export default Notfoun
+export default Other

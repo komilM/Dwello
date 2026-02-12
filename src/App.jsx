@@ -4,7 +4,7 @@ import { NavLink, Route, Routes } from 'react-router-dom'
 import Home from './home/Home'
 import Products from './products/Products'
 import logo from "./assets/logo 1.png"
-import Notfoun from './notfound/Notfoun'
+import Other from './other/Other'
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
 
       {/* Nav */}
 
-      {location.pathname !== "/notfound" && (
+      {location.pathname !== "/other" && (
         <nav>
           <img src={logo} alt="" />
           <div className="nav-menu">
@@ -32,7 +32,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/products' element={<Products />} />
-        <Route path='/notfound' element={<Notfoun />} />
+        <Route path='/other' element={<Other />} />
       </Routes>
 
       {/* Routes tugadi */}

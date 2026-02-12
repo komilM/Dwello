@@ -1,18 +1,21 @@
 import React from 'react'
 import "./App.css"
-import { NavLink, Route, Routes } from 'react-router-dom'
+import { NavLink, Route, Routes, useLocation } from 'react-router-dom'
 import Home from './home/Home'
 import Products from './products/Products'
 import logo from "./assets/logo 1.png"
-import Other from './other/Other'
+import Others from './others/others'
 
 const App = () => {
+
+  const location = useLocation();
+
   return (
     <div>
 
       {/* Nav */}
 
-      {location.pathname !== "/other" && (
+      {location.pathname !== "/others" && (
         <nav>
           <img src={logo} alt="" />
           <div className="nav-menu">
@@ -32,7 +35,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/products' element={<Products />} />
-        <Route path='/other' element={<Other />} />
+        <Route path='/others' element={<Others/>} />
       </Routes>
 
       {/* Routes tugadi */}

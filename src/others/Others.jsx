@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Others.css"
 
-const Others = () => {
+const others = () => {
   return (
     <div className="notfound">
       <h1>404</h1>
@@ -10,4 +10,4 @@ const Others = () => {
   );
 }
 
-export default Others;
+export default others;

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.notfound {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.notfound h1 {
+    font-size: 140px;
+    margin: 0;
+    color: #2B1B12;
+    font-weight: 800;
+}
+
+.notfound h2 {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #333;
+    font-weight: 600;
+}
+
+.notfound p {
+    font-size: 16px;
+    color: #777;
+}

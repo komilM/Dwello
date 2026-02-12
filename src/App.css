@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav */
+
+nav {
+  height: 122px;
+  padding-left: 104px;
+  display: flex;
+  gap: 250px;
+  margin-top: 40px;
+  line-height: 42px;
+}
+
+
+nav button:hover {
+  transform: scale(1.1);
+}
+
+
+nav img {
+  width: 93px;
+  height: 29px;
+}
+
+
+.nav-menu {
+  display: flex;
+  gap: 50px;
+  margin-left: 100px;
+}
+
+
+nav button {
+  width: 122px;
+  height: 48px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: #2B1B12;
+  transition: 0.5s;
+}
+
+/* Nav tugadi */

@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header menu */
+
+.header-texts {
+    padding-top: 270px;
+    margin-left: -450px;
+}
+
+
+.header-texts h1 {
+    width: 500px;
+    font-size: 74px;
+    color: #2B1B12;
+    font-weight: 800;
+}
+
+
+.header-texts p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4F3527;
+    width: 353px;
+    margin-top: 32px;
+}
+
+
+.header-texts button {
+    width: 176px;
+    height: 58px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #2B1B12;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 72px;
+}
+
+/* Header menu tugadi */
+
+
+.header-btns-menu {
+    width: 1070px;
+    height: 160px;
+    background-color: #DDC7BB;
+    line-height: 160px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 18px;
+    margin-left: -35%;
+    margin-top: 54px;
+    padding-top: 55px;
+    padding-left: 30px;
+    padding-right: 34px;
+    box-shadow: 0px 8px 30px 0px #2B1B121F;
+}
+
+
+.header-btns-menu button {
+    width: 252px;
+    height: 58px;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    line-height: 58px;
+    color: #695346;
+    background-color: #FBF5F1;
+}
+
+/* Buttons hover */
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Buttons hover tugadi */
+
+
+
+/* Section */
+
+section {
+    margin-top: 201px;
+    display: flex;
+    gap: 79px;
+    padding-left: 10%;
+}
+
+
+section img {
+    width: 646px;
+    border-radius: 20px;
+}
+
+
+section h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #2B1B12;
+    width: 450px;
+}
+
+
+section h4 {
+    font-size: 18px;
+    font-weight: 700;
+    width: 400px;
+    margin-top: 32px;
+    color: #4F3527;
+}
+
+
+.section-texts-item {
+    display: flex;
+    gap: 62px;
+    margin-top: 48px;
+}
+
+section h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #2B1B12;
+}
+
+
+.section-texts {
+    padding-top: 50px;
+}
+
+/* Section tugadi */
+
+
+/* Main */
+
+main {
+    text-align: center;
+    margin-top: 144px;
+}
+
+
+main h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #2B1B12;
+}
+
+
+main p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4F3527;
+    width: 540px;
+    margin-left: 32.5%;
+    margin-top: 16px;
+}
+
+
+.main-cards {
+    display: flex;
+    gap: 45px;
+    margin-top: 64px;
+    justify-content: center;
+}
+
+
+.main-card {
+    width: 275px;
+    height: 268px;
+    border-radius: 18px;
+    background-color: #DDC7BB;
+    box-shadow: 0px 4px 30px 0px #2B1B121F;
+    padding: 30px;
+    text-align: left;
+    transition: 0.4s;
+}
+
+
+.main-card:hover {
+    transform: scale(1.1);
+}
+
+
+.main-card-img {
+    width: 83px;
+    height: 83px;
+    border-radius: 8px;
+    background-color: #FBF5F1;
+    padding: 16px;
+}
+
+
+.main-card h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2B1B12;
+    margin-top: 21px;
+}
+
+
+.main-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #4F3527;
+    margin-top: 21px;
+}
+
+
+/* Main tugadi */
+
+/* Data */
+
+
+.Data {
+    text-align: center;
+    margin-top: 144px;
+}
+
+
+.Data h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #2B1B12;
+}
+
+
+.data-card {
+    width: 382px;
+    height: 534px;
+    background-color: #DDC7BB;
+    box-shadow: 0px 4px 30px 0px #2B1B121F;
+    border-radius: 18px;
+    transition: 0.3s;
+}
+
+
+.data-card:hover {
+    transform: scale(1.1);
+}
+
+
+.data-card h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2B1B12;
+    text-align: left;
+    margin-left: 52px;
+    margin-top: 18px;
+}
+
+
+.data-card h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4F3527;
+    margin-left: 52px;
+    text-align: left;
+    margin-top: 25px;
+    width: 80px;
+}
+
+
+.data-card button {
+    width: 98px;
+    height: 40px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #2B1B12;
+    color: white;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+
+.data-card h3 {
+    margin-top: 35px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #4F3527;
+}
+
+.h4 {
+    display: flex;
+}
+
+
+.addroom-price {
+    display: flex;
+    gap: 108px;
+}
+
+
+.data-card img {
+    border-radius: 18px;
+}
+
+
+.Database-cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 64px;
+}
+
+
+/* Data tugadi */
+
+/* Footer */
+
+
+footer {
+    margin-top: 143px;
+    height: 800px;
+    background-color: rgb(255, 248, 242);
+    padding-top: 56px;
+}
+
+
+footer h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #2B1B12;
+    width: 450px;
+    margin-left: 38%;
+    text-align: center;
+}
+
+
+.footer-card {
+    width: 382px;
+    height: 430px;
+    border-radius: 18px;
+    background-color: #DDC7BB;
+    transition: 0.3s;
+}
+
+
+.footer-card:hover {
+    transform: scale(1.1);
+}
+
+
+.footer-card img {
+    border-radius: 18px;
+}
+
+
+.footer-card-profile {
+    margin-top: 28px;
+    margin-left: 24px;
+    display: flex;
+    gap: 11px;
+}
+
+
+.footer-card-profile img {
+    width: 58px;
+    height: 58px;
+    border-radius: 58px;
+}
+
+
+.footer-text p {
+    margin-top: 5px;
+}
+
+
+.footer-card h5 {
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4F3527;
+    margin-top: 32px;
+    width: 300px;
+}
+
+
+.footer-cards {
+    display: flex;
+    gap: 43px;
+    justify-content: center;
+    margin-top: 62px;
+}
+
+
+footer button {
+    width: 122px;
+    height: 48px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #2B1B12;
+    transition: 0.5s;
+    margin-top: 46px;
+    margin-left: 46.5%;
+}

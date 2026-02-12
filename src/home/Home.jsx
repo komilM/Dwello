@@ -72,9 +72,9 @@ const Home = () => {
 
                     <div className="header-btns-menu">
 
-                        <button onClick={() => window.location.href = "/others"}>Location</button>
-                        <button onClick={() => window.location.href = "/others"}>Type</button>
-                        <button onClick={() => window.location.href = "/others"}>Price Range</button>
+                        <button onClick={() => window.location.href = "/page"}>Location</button>
+                        <button onClick={() => window.location.href = "/page"}>Type</button>
+                        <button onClick={() => window.location.href = "/page"}>Price Range</button>
                         <button style={{ width: "156px", backgroundColor: "#2B1B12", color: "white" }}>Sign up</button>
 
                     </div>
@@ -242,7 +242,7 @@ const Home = () => {
                         <h5>Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched.</h5>
                     </div>
                 </div>
-                <button onClick={() => window.location.href = "/others"}>Read more</button>
+                <button onClick={() => window.location.href = "/page"}>Read more</button>
             </footer>
 
         </div>

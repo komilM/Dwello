@@ -224,22 +224,22 @@ const Home = () => {
                         <div className="footer-card-profile">
                             <img src={footercardimg1} alt="" />
                             <div className="footer-text">
-                                <h2>Sarah Nguyen</h2>
-                                <p>San Francisco</p>
+                                <h2>Michael Rodriguez</h2>
+                                <p>San Diego</p>
                             </div>
                         </div>
-                        <h5>Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched.</h5>
+                        <h5>I had a fantastic experience working with Dwello. Their expertise and personalized service exceeded my expectations. I found my dream home quickly and smoothly. Highly recommended!</h5>
                     </div>
                     <div className="footer-card">
                         <img src={footerhouses3} alt="" />
                         <div className="footer-card-profile">
                             <img src={footercardimg2} alt="" />
                             <div className="footer-text">
-                                <h2>Sarah Nguyen</h2>
-                                <p>San Francisco</p>
+                                <h2>Emily Johnson</h2>
+                                <p>Los Angeles</p>
                             </div>
                         </div>
-                        <h5>Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched.</h5>
+                        <h5>Dwello made my dream of owning a home a reality! Their team provided exceptional support and guided me through every step of the process. I couldn't be happier with my new home!</h5>
                     </div>
                 </div>
                 <button onClick={() => window.location.href = "/page"}>Read more</button>

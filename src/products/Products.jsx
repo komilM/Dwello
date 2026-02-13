@@ -30,7 +30,7 @@ const Products = () => {
         setRooms(prev => {
             if (!prev[id] || prev[id] <= 0) {
                 alert("Error: No rooms");
-                return prev; 
+                return prev;
             }
             return {
                 ...prev,
@@ -91,7 +91,7 @@ const Products = () => {
             {/* Data tugadi */}
 
 
-            {/* Data malumot olish 1 qism */}
+            {/* Data malumot olish 2 qism */}
 
             <div className="Data1">
                 <h1 style={{ marginTop: "-180px" }}>California houses</h1>
@@ -121,7 +121,7 @@ const Products = () => {
             {/* Data tugadi */}
 
 
-            {/* Data malumot olish 1 qism */}
+            {/* Data malumot olish 3 qism */}
 
             <div className="Data1">
                 <h1 style={{ marginTop: "-180px" }} >Miami houses</h1>

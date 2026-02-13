@@ -20,8 +20,8 @@ const App = () => {
         <nav>
           <img src={logo} alt="" />
           <div className="nav-menu">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/products">Products</NavLink>
+            <NavLink style={{color: "black", textDecoration: "none"}} to="/">Home</NavLink>
+            <NavLink style={{color: "black", textDecoration: "none"}} to="/products">Products</NavLink>
             <p>Agents</p>
             <p>Contact</p>
           </div>

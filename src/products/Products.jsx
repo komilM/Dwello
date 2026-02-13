@@ -26,22 +26,6 @@ const Products = () => {
     };
 
 
-    function plus1(id) {
-        setRooms(prev => ({
-            ...prev,
-            [id]: (prev[id] || 0) + 1
-        }));
-    }
-
-
-    function plus2(id) {
-        setRooms(prev => ({
-            ...prev,
-            [id]: (prev[id] || 0) + 1
-        }));
-    }
-
-
     function minus(id) {
         setRooms(prev => {
             if (!prev[id] || prev[id] <= 0) {
@@ -53,35 +37,7 @@ const Products = () => {
                 [id]: prev[id] - 1
             };
         });
-    };
-
-
-    function minus2(id) {
-        setRooms(prev => {
-            if (!prev[id] || prev[id] <= 0) {
-                alert("Error: No rooms");
-                return prev; 
-            }
-            return {
-                ...prev,
-                [id]: prev[id] - 1
-            };
-        });
-    };
-
-
-    function minus1(id) {
-        setRooms(prev => {
-            if (!prev[id] || prev[id] <= 0) {
-                alert("Error: No rooms");
-                return prev; 
-            }
-            return {
-                ...prev,
-                [id]: prev[id] - 1
-            };
-        });
-    };
+    }
 
     return (
         <div style={{
@@ -151,8 +107,8 @@ const Products = () => {
                                 <h4>{item.area}</h4>
                             </div>
                             <div className="addroom-price1">
-                                <button onClick={() => plus2(item.id)}>Add room</button>
-                                <button onClick={() => minus2(item.id)}>Reset</button>
+                                <button onClick={() => plus(item.id)}>Add room</button>
+                                <button onClick={() => minus(item.id)}>Reset</button>
                                 <h3>$   {item.price}</h3>
                             </div>
                         </div>
@@ -181,8 +137,8 @@ const Products = () => {
                                 <h4>{item.area}</h4>
                             </div>
                             <div className="addroom-price1">
-                                <button onClick={() => plus1(item.id)}>Add room</button>
-                                <button onClick={() => minus1(item.id)}>Reset</button>
+                                <button onClick={() => plus(item.id)}>Add room</button>
+                                <button onClick={() => minus(item.id)}>Reset</button>
                                 <h3>$   {item.price}</h3>
                             </div>
                         </div>

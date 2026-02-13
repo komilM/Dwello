@@ -19,6 +19,8 @@ const Home = () => {
     const [data, setData] = useState([]);
     const [rooms, setRooms] = useState({});
     const [prices, setPrices] = useState({});
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
         fetch("https://698c128c21a248a27360636a.mockapi.io/house")
@@ -26,7 +28,21 @@ const Home = () => {
             .then(data => {
                 setData(data);
             })
+
+            .catch(err => {
+                setError(err.message)
+            })
+            .finally(() => {
+                setLoading(false)
+            })
     }, []);
+
+
+    if (loading) {
+        return <div className="loading-wrapper">
+            <div className="spinner"></div>
+        </div>
+    }
 
 
     function plus(id) {

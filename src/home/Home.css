@@ -413,3 +413,39 @@ footer button {
     margin-top: 46px;
     margin-left: 46.5%;
 }
+
+
+
+/* Loading */
+
+
+.loading-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #e5e7eb;
+  border-top: 6px solid #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Loading tugadi */

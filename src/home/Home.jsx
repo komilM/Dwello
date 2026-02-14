@@ -13,6 +13,7 @@ import footerhouses3 from "../assets/Mask group 2.png"
 import footercardimg from "../assets/image 1.png"
 import footercardimg1 from "../assets/image 39 1.png"
 import footercardimg2 from "../assets/image 31 1.png"
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
@@ -88,9 +89,9 @@ const Home = () => {
 
                     <div className="header-btns-menu">
 
-                        <button onClick={() => window.location.href = "/page"}>Location</button>
-                        <button onClick={() => window.location.href = "/page"}>Type</button>
-                        <button onClick={() => window.location.href = "/page"}>Price Range</button>
+                        <Link to="/page" className='btn'>Location</Link>
+                        <Link to="/page" className='btn'>Type</Link>
+                        <Link to="/page" className='btn'>Price Range</Link>
                         <button style={{ width: "156px", backgroundColor: "#2B1B12", color: "white" }}>Sign up</button>
 
                     </div>
@@ -258,7 +259,7 @@ const Home = () => {
                         <h5>Dwello made my dream of owning a home a reality! Their team provided exceptional support and guided me through every step of the process. I couldn't be happier with my new home!</h5>
                     </div>
                 </div>
-                <button onClick={() => window.location.href = "/page"}>Read more</button>
+                <Link className='read' to="/page">Read more</Link>
             </footer>
 
         </div>

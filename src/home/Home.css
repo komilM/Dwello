@@ -63,6 +63,24 @@
 }
 
 
+.btn {
+    width: 252px;
+    height: 58px;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    line-height: 58px;
+    color: #695346;
+    background-color: #FBF5F1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
 .header-btns-menu button {
     width: 252px;
     height: 58px;
@@ -76,9 +94,15 @@
     line-height: 58px;
     color: #695346;
     background-color: #FBF5F1;
+    text-decoration: none;
 }
 
 /* Buttons hover */
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
 
 button {
     transition: 0.3s;
@@ -401,9 +425,12 @@ footer h1 {
 }
 
 
-footer button {
+.read {
     width: 122px;
     height: 48px;
+    display: flex;
+    justify-content: center;
+    line-height: 48px;
     text-align: center;
     border: none;
     border-radius: 8px;
@@ -412,40 +439,46 @@ footer button {
     transition: 0.5s;
     margin-top: 46px;
     margin-left: 46.5%;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
+
+.read:hover {
+    transform: scale(1.1);
+}
 
 
 /* Loading */
 
 
 .loading-wrapper {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .spinner {
-  width: 60px;
-  height: 60px;
-  border: 6px solid #e5e7eb;
-  border-top: 6px solid #3b82f6;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
+    width: 60px;
+    height: 60px;
+    border: 6px solid #e5e7eb;
+    border-top: 6px solid #3b82f6;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .error {
-  color: red;
-  text-align: center;
-  margin-top: 40px;
+    color: red;
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* Loading tugadi */
